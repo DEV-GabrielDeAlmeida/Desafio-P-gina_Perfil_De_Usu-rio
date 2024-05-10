@@ -1,0 +1,247 @@
+.update {
+    display: none;
+}
+
+.secao-perfil .body-perfil,
+.secao-perfil {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-perfil .header-perfil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#00ADEF, transparent);
+    margin-bottom: 1.25rem;
+}
+
+.secao-perfil .pagina-perfil {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 17rem;
+    background-image: linear-gradient(45deg, #0079A8, #00ADEF);
+    border-radius: 0 0 20px 20px;
+}
+
+.secao-perfil .avatar-perfil {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #FFFFFF;
+    background-color: #DFE5F2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 90px);
+    z-index: 1;
+}
+
+.secao-perfil .avatar-perfil img {
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.secao-perfil .avatar-perfil .botao-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.secao-perfil .body-perfil {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+}
+
+.secao-perfil .body-perfil .titulo {
+    display: block;
+    width: 100%;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.secao-perfil .body-perfil .texto {
+    color: #848484;
+    font-size: 0.95em;
+}
+
+.secao-perfil .footer-perfil,
+.secao-perfil .bio-perfil {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.botao-editar {
+    position: absolute;
+    top: calc(100% + 20px);
+    border: 0;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.secao-perfil .bio-perfil {
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.secao-perfil .lista-dados {
+    width: 100%;
+    list-style: none;
+}
+
+.secao-perfil .lista-dados li {
+    display: inline-flex; /**/
+    align-items: center; /**/
+    padding: 15px 0;
+    margin-bottom: -15px;
+    flex-wrap: wrap;
+}
+
+.secao-perfil .lista-dados .icon {
+    margin-right: 0.1rem;
+    font-size: 1.4rem;
+}
+
+#idade,
+#rua,
+#bairro,
+#estado {
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+    color: #666;
+    font-size: 16px;
+    white-space: nowrap;
+    flex-basis: 100%;
+}
+
+.secao-perfil .update {
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.secao-perfil .update h2 {
+    text-align: center;
+}
+
+.secao-perfil .update input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .2);
+}
+
+.secao-perfil .update textarea {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .2);
+}
+
+.secao-perfil .update label {
+    display: block;
+    margin-bottom: 1px;
+}
+
+.secao-perfil .update .botao-cancelar {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .2);
+}
+
+.secao-perfil .redes-sociais {
+    position: absolute;
+    right: calc(0px - 50px - 1rem);
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-perfil .redes-sociais .botao-redes {
+    border: 0;
+    background-color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    font-size: 1.3rem;
+}
+
+.secao-perfil .redes-sociais .botao-redes+.botao-redes {
+    margin-top: .5rem;
+}
+
+.secao-perfil .redes-sociais .botao-redes.facebook {
+    background-color: #3b5998;
+}
+
+.secao-perfil .redes-sociais .botao-redes.linkedin {
+    background-color: #0077b5;
+}
+
+.secao-perfil .redes-sociais .botao-redes.instagram {
+    background: linear-gradient(45deg, #ff2dfd, #40a7ff);
+}
+
+@media (max-width: 750px) {
+    .secao-perfil .lista-dados {
+        width: 100%;
+    }
+
+    .secao-perfil .pagina-perfil,
+    .secao-perfil .body-perfil {
+        width: 95%;
+    }
+
+    .secao-perfil .redes-sociais {
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secao-perfil .redes-sociais .botao-redes+.botao-redes {
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+}
